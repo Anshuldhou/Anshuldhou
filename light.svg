@@ -1,1 +1,58 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
 
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#F8FAFC"/>
+<stop offset="100%" stop-color="#E2E8F0"/>
+</linearGradient>
+
+<linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#0891B2"/>
+<stop offset="100%" stop-color="#7C3AED"/>
+</linearGradient>
+
+</defs>
+
+<rect width="1200" height="320" fill="url(#bg)"/>
+
+<circle cx="180" cy="80" r="80" fill="#22D3EE" opacity=".12"/>
+<circle cx="1040" cy="240" r="120" fill="#8B5CF6" opacity=".10"/>
+
+<text
+x="70"
+y="120"
+font-size="46"
+font-family="Segoe UI"
+font-weight="700"
+fill="url(#text)">
+👋 Hi, I'm Anshul Dhoundiyal
+</text>
+
+<text
+x="70"
+y="170"
+font-size="26"
+font-family="Segoe UI"
+fill="#0F172A">
+Web Developer
+</text>
+
+<text
+x="70"
+y="210"
+font-size="18"
+font-family="Segoe UI"
+fill="#334155">
+Laravel • PHP • Python • JavaScript
+</text>
+
+<text
+x="70"
+y="245"
+font-size="16"
+font-family="Segoe UI"
+fill="#475569">
+Building Modern Web Applications
+</text>
+
+</svg>
