@@ -1,1 +1,63 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#050816"/>
+<stop offset="50%" stop-color="#0F172A"/>
+<stop offset="100%" stop-color="#020617"/>
+</linearGradient>
 
+<linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#22D3EE"/>
+<stop offset="100%" stop-color="#A855F7"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="5" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+</defs>
+
+<rect width="1200" height="320" fill="url(#bg)"/>
+
+<circle cx="150" cy="80" r="80" fill="#22D3EE" opacity=".08"/>
+<circle cx="1040" cy="240" r="120" fill="#A855F7" opacity=".08"/>
+
+<text x="70" y="120"
+font-size="46"
+font-family="Segoe UI"
+font-weight="700"
+fill="url(#text)"
+filter="url(#glow)">
+👋 Hi, I'm Anshul Dhoundiyal
+</text>
+
+<text
+x="70"
+y="170"
+font-size="26"
+font-family="Segoe UI"
+fill="#E2E8F0">
+Web Developer
+</text>
+
+<text
+x="70"
+y="210"
+font-size="18"
+font-family="Segoe UI"
+fill="#94A3B8">
+Laravel • PHP • Python • JavaScript
+</text>
+
+<text
+x="70"
+y="245"
+font-size="16"
+font-family="Segoe UI"
+fill="#64748B">
+Building Modern Web Applications
+</text>
+</svg>
